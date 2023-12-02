@@ -1,0 +1,9 @@
+{
+    "name": "mika/day02-part1",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
