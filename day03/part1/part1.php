@@ -6,8 +6,8 @@ use App\Domain\ProcessDomain;
 
 $process = new ProcessDomain();
 
-$lineList = file(__DIR__ . '/input.txt');
-//$lineList = file(__DIR__ . '/example.txt');
+$lineList = file(__DIR__ . '/../input.txt');
+//$lineList = file(__DIR__ . '/../example.txt');
 
 $process->enableDebug();
 
